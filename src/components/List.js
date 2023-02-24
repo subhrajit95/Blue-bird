@@ -96,7 +96,7 @@ export default class List extends React.Component {
   }
 
   removeBook = (index) => {
-    const bookArr =[...this.state.books];
+    const booksArr = [...this.state.books];
     if(booksArr){
       this.setState(
         {
