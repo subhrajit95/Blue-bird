@@ -90,7 +90,7 @@ export default class List extends React.Component {
   }
   
   
-  componenetDidMount() {
+  componentDidMount() {
     const books = localStorage.getItem("books")
     if (books) this.setState({ books: JSON.parse(books)})
   }
